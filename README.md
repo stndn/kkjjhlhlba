@@ -43,3 +43,10 @@ List of plugins I used:
 
 Each plugins are tagged to ensure the same experience across machines, and to avoid surprises that may come with newer version of the plugins.
 
+### Extras
+
+* Tabs in [MacVim](https://macvim.org/) has specific minimum width, which may cause the tabs to be hidden behind `>>` if too many tabs are opened. To resolve this, run the following command on Terminal, adjusting the value for `MMTabMinWidth` as needed:
+    ```
+    defaults write org.vim.MacVim MMTabMinWidth 60
+    ```
+
