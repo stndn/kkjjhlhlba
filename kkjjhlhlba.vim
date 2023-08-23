@@ -281,10 +281,16 @@ if has_key(plugs, 'ale')
   let g:ale_lint_on_text_changed = 'never'
   let g:ale_lint_on_insert_leave = 0
 
+  " Integrate with vim-airline
+  let g:airline#extensions#ale#enabled = 1
+
+  " Show problems where the cursor lies
+  let g:ale_virtualtext_cursor = 'current'
+
   " Uncomment to disable auto lint on file open
   " let g:ale_lint_on_enter = 0
 
-  " Override linter used for python.
+  " Override linter used for python
   " Requires pyflakes: https://github.com/PyCQA/pyflakes
   let g:ale_linters = {'python': ['pyflakes']}
 endif
