@@ -11,7 +11,7 @@ endif
 " Variables {{{
 " Some values can be adjusted here instead of far down at the bottom
 
-let s:foldlevelstart=2        " Fold level to start with
+let s:foldlevelstart=8        " Fold level to start with
 let s:foldnestmax=10          " Max level of fold nesting
 let s:histcount = 256         " Number of commands to be saved in history
 let s:linemarkerpos = 80      " Position of line marker
