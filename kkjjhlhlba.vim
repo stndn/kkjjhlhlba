@@ -246,9 +246,9 @@ call plug#begin()
   Plug 'https://github.com/NLKNguyen/papercolor-theme',       { 'tag': 'v1.0' }
   Plug 'https://github.com/bronson/vim-trailing-whitespace',  { 'tag': '1.0' }
   Plug 'https://github.com/ctrlpvim/ctrlp.vim',               { 'tag': '1.81' }
-  Plug 'https://github.com/dense-analysis/ale',               { 'tag': 'v3.3.0' }
-  Plug 'https://github.com/preservim/nerdcommenter',          { 'tag': '2.6.0' }
-  Plug 'https://github.com/preservim/nerdtree',               { 'tag': '6.10.16' }
+  Plug 'https://github.com/dense-analysis/ale',               { 'tag': 'v4.0.0' }
+  Plug 'https://github.com/preservim/nerdcommenter',          { 'tag': '2.7.0' }
+  Plug 'https://github.com/preservim/nerdtree',               { 'tag': '7.1.3' }
   Plug 'https://github.com/vim-airline/vim-airline',          { 'tag': 'v0.11' }
   Plug 'https://github.com/vim-airline/vim-airline-themes'
 
