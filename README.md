@@ -7,7 +7,7 @@ This is my personal `.vimrc` setup, with additional plugins which helps me go fu
 
 Some manual set up is required, as there is not much point to automate the setup since they won't change that often anyway.
 
-Note that the setup is intended for Ubuntu server, so some commands may not apply depending on the OS where this is installed at.
+Note that the setup is intended for Debian/Ubuntu, so some commands may not apply depending on the OS where this is installed at.
 
 
 ### Dependencies
@@ -24,13 +24,13 @@ Note that the setup is intended for Ubuntu server, so some commands may not appl
     ```
     make vim-plug
     ```
-1. Install the optional dependencies by executing any or all of the commands below (note: Ubuntu 24.04+ only, requires `sudo`).
+1. Install the optional dependencies by executing any or all of the commands below (note: Requires `sudo`).
     ```
     # Install pyflakes
-    make pyflakes
+    sudo make pyflakes
 
     # Install the silver searcher
-    make ag
+    sudo make ag
     ```
 1. Add the following line to existing `.vimrc`:
 	```
